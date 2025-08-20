@@ -43,6 +43,7 @@ namespace Trellcko.GoogleSheetsSynchronizer
 <img width="508" height="289" alt="image" src="https://github.com/user-attachments/assets/e7079a55-bb12-4702-9c51-aa5d0d0d3578" />
 
 - Publish the sheet
+  
   <img width="799" height="257" alt="image" src="https://github.com/user-attachments/assets/eddd2272-e31f-4479-bbbb-03955a5d008a" />
 
 
