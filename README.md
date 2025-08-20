@@ -19,3 +19,21 @@ Built with [Odin Inspector](https://odininspector.com/) for a clean and powerful
 - [UniTask](https://github.com/Cysharp/UniTask) – required for async/await support.
 
 > ⚠️ If Odin Inspector is not installed, the editor window will not be available, but synchronization can work.
+>
+## 🚀 Usage
+
+Create a class that inherits from SynchronizedData.
+Example:
+
+``csharp
+using UnityEngine;
+
+namespace Trellcko.GoogleSheetsSynchronizer
+{
+    [CreateAssetMenu(fileName = "TestSyncData", menuName = "Scriptable Objects/TestSyncData")]
+    public class TestSyncData : SynchronizedData
+    {
+        public float Lalala;
+    }
+}
+``
