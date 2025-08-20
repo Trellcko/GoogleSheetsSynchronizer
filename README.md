@@ -23,6 +23,7 @@ Built with [Odin Inspector](https://odininspector.com/) for a clean and powerful
 ## 🚀 Usage
 
 Create a class that inherits from SynchronizedData.
+
 Example:
 
 ```csharp
