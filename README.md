@@ -58,15 +58,19 @@ namespace Trellcko.GoogleSheetsSynchronizer
 
 - If you don't have you can use GoogleSheetsSynchronizer
 
-  ```csharp
-using UnityEngine;
-
-namespace Trellcko.GoogleSheetsSynchronizer
-{
-    [CreateAssetMenu(fileName = "TestSyncData", menuName = "Scriptable Objects/TestSyncData")]
-    public class TestSyncData : SynchronizedData
+```csharp
+    public class TestScript : MonoBehaviour
     {
-        public float Lalala;
+        private IGoogleSheetsSynchronizer _synchronizer = new GoogleSheetsSynchronizer();
+        private SynchronizedData[] _data;
+
+        private void Start()
+        {
+            foreach(var data in _data)
+            {
+                _synchronizer.Synchronize(data);
+            }
+        }
+        
     }
-}
 ```
