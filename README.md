@@ -25,7 +25,7 @@ Built with [Odin Inspector](https://odininspector.com/) for a clean and powerful
 Create a class that inherits from SynchronizedData.
 Example:
 
-``csharp
+```csharp
 using UnityEngine;
 
 namespace Trellcko.GoogleSheetsSynchronizer
@@ -36,4 +36,4 @@ namespace Trellcko.GoogleSheetsSynchronizer
         public float Lalala;
     }
 }
-``
+```
