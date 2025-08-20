@@ -47,8 +47,9 @@ namespace Trellcko.GoogleSheetsSynchronizer
 <img width="799" height="257" alt="image" src="https://github.com/user-attachments/assets/eddd2272-e31f-4479-bbbb-03955a5d008a" />
 
 - Copy ID of the sheet and paste it into the data
+  
+<img width="1296" height="50" alt="image" src="https://github.com/user-attachments/assets/1b595adc-fbab-4e1f-b041-127d30d536e1" />
 
-<img width="1044" height="104" alt="image" src="https://github.com/user-attachments/assets/74e0aaff-b296-4877-9de2-4e6c343ed206" />
 <img width="1030" height="208" alt="image" src="https://github.com/user-attachments/assets/0e32e656-3772-4ff4-83d7-ac525ee982ed" />
 
 
