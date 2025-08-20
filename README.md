@@ -52,4 +52,21 @@ namespace Trellcko.GoogleSheetsSynchronizer
 
 <img width="1030" height="208" alt="image" src="https://github.com/user-attachments/assets/0e32e656-3772-4ff4-83d7-ac525ee982ed" />
 
+- If you have Odin Inspector you can use Editor for better Expirience
 
+<img width="928" height="1005" alt="image" src="https://github.com/user-attachments/assets/e172a818-7ca4-4915-a8c2-56331216feb3" />
+
+- If you don't have you can use GoogleSheetsSynchronizer
+
+  ```csharp
+using UnityEngine;
+
+namespace Trellcko.GoogleSheetsSynchronizer
+{
+    [CreateAssetMenu(fileName = "TestSyncData", menuName = "Scriptable Objects/TestSyncData")]
+    public class TestSyncData : SynchronizedData
+    {
+        public float Lalala;
+    }
+}
+```
