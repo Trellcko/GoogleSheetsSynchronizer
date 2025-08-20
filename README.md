@@ -22,7 +22,7 @@ Built with [Odin Inspector](https://odininspector.com/) for a clean and powerful
 >
 ## 🚀 Usage
 
-Create a class that inherits from SynchronizedData.
+- Create a class that inherits from SynchronizedData.
 
 Example:
 
@@ -38,3 +38,11 @@ namespace Trellcko.GoogleSheetsSynchronizer
     }
 }
 ```
+- Now you need create a Sheet names of the fields and names of the first rows have to be the same
+
+<img width="508" height="289" alt="image" src="https://github.com/user-attachments/assets/e7079a55-bb12-4702-9c51-aa5d0d0d3578" />
+
+- Publish the sheet
+  <img width="799" height="257" alt="image" src="https://github.com/user-attachments/assets/eddd2272-e31f-4479-bbbb-03955a5d008a" />
+
+
